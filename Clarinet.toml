@@ -19,6 +19,12 @@ epoch = 3.1
 path = 'contracts/milestone-rewards.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.penalty-escalation]
+path = 'contracts/penalty-escalation.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
