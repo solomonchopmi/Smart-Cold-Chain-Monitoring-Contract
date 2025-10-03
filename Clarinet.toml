@@ -1,0 +1,39 @@
+[project]
+name = 'Smart-Cold-Chain-Monitoring-Contract'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.Smart-Cold-Chain-Monitoring-Contract]
+path = 'contracts/Smart-Cold-Chain-Monitoring-Contract.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.quality-certification]
+path = 'contracts/quality-certification.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.milestone-rewards]
+path = 'contracts/milestone-rewards.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.penalty-escalation]
+path = 'contracts/penalty-escalation.clar'
+clarity_version = 3
+epoch = 3.1
+
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
