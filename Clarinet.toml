@@ -25,6 +25,10 @@ path = 'contracts/penalty-escalation.clar'
 clarity_version = 3
 epoch = 3.1
 
+[contracts.shipment-escrow]
+path = 'contracts/shipment-escrow.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
